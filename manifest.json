@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+
+	"name": "Dark Edge theme for Chrome",
+	"description": "A theme that applies some of Microsoft Edge's dark theme colours to Chrome.",
+
+	"version": "1.0.0",
+
+	"theme": {
+		"images": {
+			"theme_ntp_background": "images/theme_ntp_background.png"
+		},
+		"colors": {
+			"frame": [53, 53, 53],
+			"frame_inactive": [43, 43, 43],
+			"frame_incognito": [53, 53, 53],
+			"frame_incognito_inactive": [43, 43, 43],
+			"toolbar": [23, 23, 23],
+			"tab_text": [255, 255, 255],
+			"tab_text_inactive": [255, 255, 255],
+			"tab_background_text": [233, 233, 233],
+			"tab_background_text_inactive": [233, 233, 233],
+			"bookmark_text": [255, 255, 255],
+			"ntp_background": [47, 47, 47],
+			"ntp_text": [255, 255, 255]
+		},
+		"tints": {
+			"buttons": [0, 0, 1]
+		},
+		"properties": {
+			"ntp_logo_alternate": 1,
+			"ntp_background_repeat": "repeat"
+		}
+	}
+}
