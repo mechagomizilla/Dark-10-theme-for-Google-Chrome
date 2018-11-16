@@ -4,7 +4,7 @@
 	"name": "Windows 10 Dark",
 	"description": "A theme that blends in with Windows 10's dark theme.",
 
-	"version": "0.4.0",
+	"version": "1.0.0",
 
 	"icons": {
 		"128": "images/icon128.png"
