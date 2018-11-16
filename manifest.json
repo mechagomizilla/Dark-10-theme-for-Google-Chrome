@@ -4,7 +4,7 @@
 	"name": "Windows 10 Dark",
 	"description": "A theme that blends in with Windows 10's dark theme.",
 
-	"version": "0.2.0",
+	"version": "0.3.2",
 
 	"icons": {
 		"128": "images/icon128.png"
@@ -17,13 +17,15 @@
 		"colors": {
 			"frame": [51, 51, 51],
 			"frame_inactive": [43, 43, 43],
-			"frame_incognito": [51, 51, 51],
-			"frame_incognito_inactive": [43, 43, 43],
+			"frame_incognito": [173, 173, 173],
+			"frame_incognito_inactive": [215, 215, 215],
 			"toolbar": [25, 25, 25],
 			"tab_text": [255, 255, 255],
 			"tab_text_inactive": [222, 222, 222],
 			"tab_background_text": [233, 233, 233],
 			"tab_background_text_inactive": [170, 170, 170],
+			"tab_background_text_incognito": [0, 0, 0],
+    		"tab_background_text_incognito_inactive": [109, 109, 109],
 			"bookmark_text": [255, 255, 255],
 			"ntp_background": [32, 32, 32],
 			"ntp_text": [255, 255, 255]
