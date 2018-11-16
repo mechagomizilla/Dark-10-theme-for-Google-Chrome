@@ -1,27 +1,31 @@
 {
 	"manifest_version": 2,
 
-	"name": "Dark Edge theme for Chrome",
-	"description": "A theme that applies some of Microsoft Edge's dark theme colours to Chrome.",
+	"name": "Windows 10 Dark",
+	"description": "A theme that blends in with Windows 10's dark theme.",
 
-	"version": "1.0.0",
+	"version": "0.2.0",
+
+	"icons": {
+		"128": "images/icon128.png"
+	},
 
 	"theme": {
 		"images": {
 			"theme_ntp_background": "images/theme_ntp_background.png"
 		},
 		"colors": {
-			"frame": [53, 53, 53],
+			"frame": [51, 51, 51],
 			"frame_inactive": [43, 43, 43],
-			"frame_incognito": [53, 53, 53],
+			"frame_incognito": [51, 51, 51],
 			"frame_incognito_inactive": [43, 43, 43],
-			"toolbar": [23, 23, 23],
+			"toolbar": [25, 25, 25],
 			"tab_text": [255, 255, 255],
-			"tab_text_inactive": [255, 255, 255],
+			"tab_text_inactive": [222, 222, 222],
 			"tab_background_text": [233, 233, 233],
-			"tab_background_text_inactive": [233, 233, 233],
+			"tab_background_text_inactive": [170, 170, 170],
 			"bookmark_text": [255, 255, 255],
-			"ntp_background": [47, 47, 47],
+			"ntp_background": [32, 32, 32],
 			"ntp_text": [255, 255, 255]
 		},
 		"tints": {

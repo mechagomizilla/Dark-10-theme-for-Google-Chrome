@@ -1,3 +1,3 @@
-# Dark Edge theme for Chrome
+# Windows 10 Dark theme for Google Chrome
 
-This is a dark theme for Google Chrome that replicates as many of the colours from the dark Microsoft Edge theme as possible.
+This is a dark theme for Google Chrome that tries to blend as seemlessly into the Windows 10 dark theme as possible.
