@@ -22,7 +22,7 @@ Install the theme from the [Chrome Web Store](https://chrome.google.com/webstore
 
 ### Screenshots
 
-*Newtab*
+*New Tab*
 ![newtab](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/screenshot_1.png)
 
 *Incognito mode*
