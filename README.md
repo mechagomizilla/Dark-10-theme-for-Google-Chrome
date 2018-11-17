@@ -12,6 +12,7 @@ Incognito mode uses a blue titlebar to distinguish it from normal mode. The blue
 Install the theme from the [Chrome Web Store](https://chrome.google.com/webstore/detail/windows-10-dark/baebencgofnhbdimnijacljeoegbokeh) or by dragging and dropping the .crx file from the latest [release](https://github.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/releases) into the Extensions page of your browser (chrome://extensions/). Note that you will receive auto-updates (if there are any in the future) only if you install the theme from the Chrome Web Store. However, earlier versions will still be available here, on the releases page.
 
 ### Companion scrollbar
+![scrollbar_promo]https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/scrollbar_promo_lossless.png
 In addition to the theme, there is a custom scrollbar made to accompany it, available on [UserStyles](https://userstyles.org/styles/166079/windows-10-dark-scrollbar) and [Github](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Windows-10-Dark-Scrollbar.user.css). You can install it using the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) app, available on the Chrome Web Store.
 
 ### Github
