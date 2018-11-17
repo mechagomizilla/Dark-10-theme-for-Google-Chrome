@@ -9,7 +9,7 @@
 Incognito mode uses a blue titlebar to distinguish it from normal mode. The blue is taken from Microsof Edge's In-Private watermark.
 
 ### Installation
-Install the theme from the [Chrome Web Store](https://chrome.google.com/webstore/detail/windows-10-dark/baebencgofnhbdimnijacljeoegbokeh) or by dragging and dropping the .crx file from the latest [release](https://github.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/releases) into the Extensions page of your browser. Note that you will receive auto-updates (if there are any in the future) only if you install the theme from the Chrome Web Store. However, earlier versions will still be available here, on the releases page.
+Install the theme from the [Chrome Web Store](https://chrome.google.com/webstore/detail/windows-10-dark/baebencgofnhbdimnijacljeoegbokeh) or by dragging and dropping the .crx file from the latest [release](https://github.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/releases) into the Extensions page of your browser (chrome://extensions/). Note that you will receive auto-updates (if there are any in the future) only if you install the theme from the Chrome Web Store. However, earlier versions will still be available here, on the releases page.
 
 ### Companion scrollbar
 In addition to the theme, there is a custom scrollbar made to accompany it, available on [UserStyles](https://userstyles.org/styles/166079/windows-10-dark-scrollbar) and [Github](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Windows-10-Dark-Scrollbar.user.css). You can install it using the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) app, available on the Chrome Web Store.
@@ -24,5 +24,7 @@ Chrome theme devs currently have no ability to colour the omnibox. As a result, 
 To uninstall this theme, go to Settings, scroll down to the Appearance section, and next to "Themes - Windows 10 Dark", click Reset to Default.
 
 ### Screenshots
+*Newtab*
 ![newtab](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/screenshot_1.png)
+*Incognito mode*
 ![newtab_incognito](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/screenshot_2.png)
