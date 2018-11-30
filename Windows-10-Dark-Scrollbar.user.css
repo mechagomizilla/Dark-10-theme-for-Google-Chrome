@@ -1,60 +1,150 @@
 /* ==UserStyle==
 @name           Windows 10 Dark Scrollbar
 @namespace      https://github.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome
-@version        1.1.2
+@version        2.0.0
 @description    A dark scrollbar to accompany the Windows 10 Dark theme for Google Chrome.
 @author         InsanityDevice
 @license        Apache License 2.0 (https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/LICENSE.txt)
 @homepageURL    https://github.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome
 @supportURL     https://github.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/issues
 @updateURL      https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Windows-10-Dark-Scrollbar.user.css
+@preprocessor uso
+@advanced color bar "Bar:" #4d4d4d
+@advanced color hover "Hover:" #7a7a7a
+@advanced color active "Active:" #a6a6a6
+@advanced color border "Border color:" #171717
+@advanced text b "Border size:" 1px
+@advanced text br "Border Radius:" 0px
+@advanced color corner "Corner (between the vertical and horizontal bars):" #202020
+@advanced color bg "Background:" #171717
+@advanced text size "Size:" 17px
+@advanced text button "Buttons (0px for none):" 17px
 ==/UserStyle== */
 
 @-moz-document regexp(".*") {
     ::-webkit-scrollbar {
-        width: 14px !important;
-        height: 14px !important;
+        width: /*[[size]]*/ !important;
+        height: /*[[size]]*/ !important;
     }
     ::-webkit-scrollbar-thumb {
         -webkit-appearance: none !important;
-        background: #4d4d4d !important;
-        border: 1px solid #171717 !important;
-        border-radius: 0px !important;
+        background: /*[[bar]]*/ !important;
+        border: /*[[b]]*/ solid /*[[border]]*/ !important;
+        border-radius: /*[[br]]*/ !important;
         box-shadow: none !important;
-        width: 14px !important;
-        height: 14px !important;
+        width: /*[[size]]*/ !important;
+        height: /*[[size]]*/ !important;
     }
     ::-webkit-scrollbar-thumb:hover {
-        background: #7a7a7a !important;
+        -webkit-appearance: none !important;
+        background: /*[[hover]]*/ !important;
     }
     ::-webkit-scrollbar-thumb:active {
-        background: #a6a6a6 !important;
+        -webkit-appearance: none !important;
+        background: /*[[active]]*/ !important;
     }
     ::-webkit-scrollbar-track {
         -webkit-appearance: none !important;
-        background: #171717 !important;
+        background: /*[[bg]]*/ !important;
         border: none !important;
         border-radius: 0 !important;
         box-shadow: none !important;
-        width: 14px !important;
-        height: 14px !important;
+        width: /*[[size]]*/ !important;
+        height: /*[[size]]*/ !important;
     }
     ::-webkit-scrollbar-track-piece {
         -webkit-appearance: none !important;
         background: transparent !important;
         border: none !important;
         box-shadow: none !important;
-        width: 14px !important;
-        height: 14px !important;
-    }
-    ::-webkit-scrollbar-button {
-        width: 0 !important;
-        height: 0 !important;
+        width: /*[[size]]*/ !important;
+        height: /*[[size]]*/ !important;
     }
     ::-webkit-scrollbar-corner {
-        background: #202020 !important;
+        -webkit-appearance: none !important;
+        background: /*[[corner]]*/ !important;
         border: none !important;
         border-radius: 0 !important;
         box-shadow: none !important;
+    }
+    ::-webkit-scrollbar-button {
+        -webkit-appearance: none !important;
+        width: /*[[button]]*/ !important;
+        height: /*[[button]]*/ !important;
+        border: none !important;
+        border-radius: 0 !important;
+        background-color: /*[[bg]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:vertical:decrement {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/ud.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:vertical:increment {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/dd.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:horizontal:decrement {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/ld.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:horizontal:increment {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/rd.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:vertical:decrement:hover {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/uh.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:vertical:increment:hover {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/dh.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:horizontal:decrement:hover {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/lh.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:horizontal:increment:hover {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/rh.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:vertical:decrement:active {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/ua.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:vertical:increment:active {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/da.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:horizontal:decrement:active {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/la.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
+    }
+    ::-webkit-scrollbar-button:horizontal:increment:active {
+        -webkit-appearance: none !important;
+        background-image: url(https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/Buttons/ra.jpg) !important;
+        background-position: center !important;
+        background-size: /*[[button]]*/ !important;
     }
 }
