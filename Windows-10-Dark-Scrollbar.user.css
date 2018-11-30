@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Windows 10 Dark Scrollbar
 @namespace      https://github.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome
-@version        1.1.1
+@version        1.1.2
 @description    A dark scrollbar to accompany the Windows 10 Dark theme for Google Chrome.
 @author         InsanityDevice
 @license        Apache License 2.0 (https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/LICENSE.txt)
@@ -52,7 +52,7 @@
         height: 0 !important;
     }
     ::-webkit-scrollbar-corner {
-        background: #171717 !important;
+        background: #202020 !important;
         border: none !important;
         border-radius: 0 !important;
         box-shadow: none !important;
