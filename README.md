@@ -32,7 +32,7 @@ Install the theme from the [Chrome Web Store](https://chrome.google.com/webstore
 
 ![scrollbar_promo](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/scrollbar_promo_lossless.png)
 
-In addition to the theme, there is a custom scrollbar made to accompany it, available on [UserStyles](https://userstyles.org/styles/166079/windows-10-dark-scrollbar) and [Github](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Windows-10-Dark-Scrollbar.user.css). You can install it using the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) app, available on the Chrome Web Store.
+In addition to the theme, there is a customizable scrollbar made to accompany it, available on [UserStyles](https://userstyles.org/styles/166079/windows-10-dark-scrollbar) and [Github](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Windows-10-Dark-Scrollbar.user.css). You can install it using the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) app, available on the Chrome Web Store.
 
 ### Source code and licence
 This theme is fully open-source under the Apache Licence 2.0. Check out the source code on [Github](https://github.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome).
