@@ -14,8 +14,8 @@
 @advanced color active "Active (on click)" #a6a6a6
 @advanced text br "Border radius (bigger = rounder)" 0px
 @advanced text border "Border" 1px
-@advanced color bci "Inward border color" #171717
-@advanced color bco "Outward border color" #171717
+@advanced color bci "Inward border colour" #171717
+@advanced color bco "Outward border colour" #171717
 @advanced color bg "Background" #171717
 @advanced color corner "Corner (between the vertical and horizontal bars)" #202020
 @advanced text size "Size" 17px
