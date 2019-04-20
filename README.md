@@ -1,6 +1,6 @@
 # Windows 10 Dark
 
-![promo_small](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/promo_small.png)
+![promo_large](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/promo_large.png)
 
 ### Table of contents
 1. [Description](https://insanitydevice.github.io/Windows-10-Dark-theme-for-Google-Chrome/#description)
