@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Windows 10 Dark Scrollbar
 @namespace      https://github.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome
-@version        2.1.2
+@version        2.1.3
 @description    A customizable dark scrollbar to accompany the Windows 10 Dark theme for Google Chrome.
 @author         InsanityDevice
 @license        Apache License 2.0 (https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/LICENSE.txt)
@@ -39,7 +39,10 @@
 }
 ==/UserStyle== */
 
-@-moz-document regexp("^(?!https?://(www\\.)?(youtube\\.com|example\\.com).*).*$") {
+@-moz-document regexp(".*") {   
+    html[hide-scrollbar="true"] ::-webkit-scrollbar {
+        display: none;
+    }
     ::-webkit-scrollbar {
         width: /*[[size]]*/ !important;
         height: /*[[size]]*/ !important;
