@@ -1,10 +1,10 @@
 {
 	"manifest_version": 2,
 
-	"name": "Windows 10 Dark",
-	"description": "A theme that blends in with Windows 10's dark theme.",
+	"name": "Dark-10",
+	"description": "A browser theme that blends in with Win10's dark theme.",
 
-	"version": "1.0.1",
+	"version": "1.0.2",
 
 	"icons": {
 		"128": "images/icon128.png"
