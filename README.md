@@ -1,6 +1,6 @@
 # Windows 10 Dark
 
-<span style="color:red">Please note that the Chrome theme has been removed from the Chrome Store for a few months because of a copyright strike from Microsoft. I wasn't able to rebrand it until now because of my busy schedule, but I will try to do so very soon. (2020-01-24)</span>
+*Please note that the Chrome theme has been removed from the Chrome Store for a few months because of a copyright strike from Microsoft. I wasn't able to rebrand it until now because of my busy schedule, but I will try to do so very soon. (2020-01-24)*
 
 ![promo_large](https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/Images/promo_large.png)
 
