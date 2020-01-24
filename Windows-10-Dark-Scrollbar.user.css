@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Windows 10 Dark Scrollbar
 @namespace      https://github.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome
-@version        2.1.3
+@version        2.2.0
 @description    A customizable dark scrollbar to accompany the Windows 10 Dark theme for Google Chrome.
 @author         InsanityDevice
 @license        Apache License 2.0 (https://raw.githubusercontent.com/InsanityDevice/Windows-10-Dark-theme-for-Google-Chrome/master/LICENSE.txt)
@@ -14,8 +14,8 @@
 @advanced color active "Active (on click)" #a6a6a6
 @advanced text br "Border radius (up to half of the scrollbar's size)" 0px
 @advanced text border "Border" 1px
-@advanced color bci "Inward border colour" #171717
-@advanced color bco "Outward border colour" #171717
+@advanced text borderp "Perpendicular borders" 0px
+@advanced color bc "Border colour" #171717
 @advanced color bg "Background" #171717
 @advanced color corner "Corner (between the vertical and horizontal bars)" #202020
 @advanced text size "Size" 17px
@@ -64,16 +64,16 @@
         background: /*[[active]]*/ !important;
     }
     ::-webkit-scrollbar-thumb:vertical {
-        border-left: /*[[border]]*/ solid /*[[bci]]*/ !important;
-        border-right: /*[[border]]*/ solid /*[[bco]]*/ !important;
-        border-top: none !important;
-        border-bottom: none !important;
+        border-left: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-right: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-top: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
+        border-bottom: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
     }
     ::-webkit-scrollbar-thumb:horizontal {
-        border-top: /*[[border]]*/ solid /*[[bci]]*/ !important;
-        border-bottom: /*[[border]]*/ solid /*[[bco]]*/ !important;
-        border-left: none !important;
-        border-right: none !important;
+        border-top: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-bottom: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-left: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
+        border-right: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
     }
     ::-webkit-scrollbar-track {
         -webkit-appearance: none !important;
@@ -85,17 +85,17 @@
     }
     ::-webkit-scrollbar-track:vertical {
         -webkit-appearance: none !important;
-        border-left: /*[[border]]*/ solid /*[[bci]]*/ !important;
-        border-right: /*[[border]]*/ solid /*[[bco]]*/ !important;
-        border-top: none !important;
-        border-bottom: none !important;
+        border-left: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-right: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-top: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
+        border-bottom: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
     }
     ::-webkit-scrollbar-track:horizontal {
         -webkit-appearance: none !important;
-        border-top: /*[[border]]*/ solid /*[[bci]]*/ !important;
-        border-bottom: /*[[border]]*/ solid /*[[bco]]*/ !important;
-        border-left: none !important;
-        border-right: none !important;
+        border-top: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-bottom: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-left: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
+        border-right: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
     }
     ::-webkit-scrollbar-track-piece {
         -webkit-appearance: none !important;
@@ -119,16 +119,16 @@
         border-radius: 0 !important;
     }
     ::-webkit-scrollbar-button:vertical {
-        border-left: /*[[border]]*/ solid /*[[bci]]*/ !important;
-        border-right: /*[[border]]*/ solid /*[[bco]]*/ !important;
-        border-top: none !important;
-        border-bottom: none !important;
+        border-left: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-right: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-top: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
+        border-bottom: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
     }
     ::-webkit-scrollbar-button:horizontal {
-        border-top: /*[[border]]*/ solid /*[[bci]]*/ !important;
-        border-bottom: /*[[border]]*/ solid /*[[bco]]*/ !important;
-        border-left: none !important;
-        border-right: none !important;
+        border-top: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-bottom: /*[[border]]*/ solid /*[[bc]]*/ !important;
+        border-left: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
+        border-right: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
     }
     /*[[arrow]]*/
     /*[[bharrow]]*/
