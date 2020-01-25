@@ -19,10 +19,10 @@
 
 *This theme was made for Chrome v69 and later.* 
 
-Incognito mode uses a blue title bar to distinguish it from the normal mode. The blue is taken from Microsoft Edge's In-Private watermark.
+Incognito mode uses a blue title bar to distinguish it from the normal mode. The blue is inspired by the old Edge's In-Private watermark.
 
 ### Installation
-Install the theme from the [Chrome Web Store](https://chrome.google.com/webstore/detail/windows-10-dark/baebencgofnhbdimnijacljeoegbokeh) or by dragging and dropping the .crx file from the latest [release](https://github.com/InsanityDevice/Dark-10-theme-for-Google-Chrome/releases) into the Extensions page of your browser (chrome://extensions/). Note that you will receive auto-updates (if there are any in the future) only if you install the theme from the Chrome Web Store. However, earlier versions will still be available here, on the releases page.
+Install the theme from the [Chrome Web Store](https://chrome.google.com/webstore/detail/dark-10/baebencgofnhbdimnijacljeoegbokeh) or by dragging and dropping the .crx file from the latest [release](https://github.com/InsanityDevice/Dark-10-theme-for-Google-Chrome/releases) into the Extensions page of your browser (chrome://extensions/). Note that you will receive auto-updates (if there are any in the future) only if you install the theme from the Chrome Web Store. However, earlier versions will still be available here, on the releases page.
 
 ### Screenshots
 
@@ -34,9 +34,9 @@ Install the theme from the [Chrome Web Store](https://chrome.google.com/webstore
 
 ### Companion scrollbar
 
-![scrollbar_promo](https://raw.githubusercontent.com/InsanityDevice/Dark-10-theme-for-Google-Chrome/master/Images/scrollbar_promo_lossless.png)
+![scrollbar_promo](https://raw.githubusercontent.com/InsanityDevice/Dark-10-theme-for-Google-Chrome/master/Images/scrollbar_promo.png)
 
-In addition to the theme, there is a customizable scrollbar made to accompany it, available on [UserStyles](https://userstyles.org/styles/166079/windows-10-dark-scrollbar) and [Github](https://raw.githubusercontent.com/InsanityDevice/Dark-10-theme-for-Google-Chrome/master/Dark-10-Scrollbar.user.css). You can install it using the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) app, available on the Chrome Web Store.
+In addition to the theme, there is a customizable scrollbar made to accompany it, available on [UserStyles](https://userstyles.org/styles/166079/dark-10-scrollbar) and [Github](https://raw.githubusercontent.com/InsanityDevice/Dark-10-theme-for-Google-Chrome/master/Dark-10-Scrollbar.user.css). You can install it using the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) app, available on the Chrome Web Store.
 
 ### Source code and licence
 This theme is fully open-source under the Apache Licence 2.0. Check out the source code on [Github](https://github.com/InsanityDevice/Dark-10-theme-for-Google-Chrome).
