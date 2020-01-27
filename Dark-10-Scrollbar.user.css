@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark-10 Scrollbar
 @namespace      https://github.com/InsanityDevice/Dark-10-theme-for-Google-Chrome
-@version        2.2.1
+@version        2.3.0
 @description    A customizable dark scrollbar to accompany the Dark-10 theme for Google Chrome.
 @author         InsanityDevice
 @license        Apache License 2.0 (https://raw.githubusercontent.com/InsanityDevice/Dark-10-theme-for-Google-Chrome/master/LICENSE.txt)
@@ -13,8 +13,10 @@
 @advanced color hover "On hover" #7a7a7a
 @advanced color active "Active (on click)" #a6a6a6
 @advanced text br "Border radius (up to half of the scrollbar's size)" 0px
-@advanced text border "Border" 1px
-@advanced text borderp "Perpendicular borders" 0px
+@advanced text border "Bar borders" 1px
+@advanced text borderp "Perpendicular bar borders" 0px
+@advanced text borderb "Button borders" 1px
+@advanced text borderbp "Perpendicular button borders" 0px
 @advanced color bc "Border colour" #171717
 @advanced color bg "Background" #171717
 @advanced color corner "Corner (between the vertical and horizontal bars)" #202020
@@ -119,10 +121,10 @@
         border-radius: 0 !important;
     }
     ::-webkit-scrollbar-button:vertical {
-        border-left: /*[[border]]*/ solid /*[[bc]]*/ !important;
-        border-right: /*[[border]]*/ solid /*[[bc]]*/ !important;
-        border-top: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
-        border-bottom: /*[[borderp]]*/ solid /*[[bc]]*/ !important;
+        border-left: /*[[borderb]]*/ solid /*[[bc]]*/ !important;
+        border-right: /*[[borderb]]*/ solid /*[[bc]]*/ !important;
+        border-top: /*[[borderbp]]*/ solid /*[[bc]]*/ !important;
+        border-bottom: /*[[borderbp]]*/ solid /*[[bc]]*/ !important;
     }
     ::-webkit-scrollbar-button:horizontal {
         border-top: /*[[border]]*/ solid /*[[bc]]*/ !important;
