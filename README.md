@@ -1,9 +1,5 @@
 # Dark-10
 
-*Please note that the Chrome theme has been removed from the Chrome Store for a few months because of a copyright strike from Microsoft. I wasn't able to rebrand it until now because of my busy schedule, but I'm currently in the process of doing it.*
-
-*Sadly, since every single thing, including links, is getting rebranded, this means that everyone who had the scrollbar installed will have to reinstall it and that everyone who had bookmarked this page will get a 404 error. Well, this sucks... (2020-01-24)*
-
 ![promo_large](https://raw.githubusercontent.com/InsanityDevice/Dark-10-theme-for-Google-Chrome/master/Images/promo_large.png)
 
 ### Table of contents
